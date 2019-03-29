@@ -22,7 +22,7 @@
     }
     else if ( jQuery ) {
         // Otherwise simply initialise as normal, stopping multiple evaluation
-        factory( jQuery );
+        factory( jQuery, jQuery.fn.dataTable );
     }
 }(function ($, DataTable) {
     "use strict";
